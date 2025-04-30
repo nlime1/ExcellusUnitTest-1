@@ -6,6 +6,7 @@ import animals.petstore.pet.attributes.Gender;
 import animals.petstore.pet.attributes.Skin;
 import animals.petstore.pet.types.Cat;
 import animals.petstore.pet.types.Dog;
+import animals.petstore.pet.types.Snake;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +19,9 @@ public class Main {
 
         Cat cat = new Cat(AnimalType.DOMESTIC, Skin.FUR, Gender.MALE, Breed.BURMESE);
         System.out.println(cat.toString());
+        System.out.println("\n");
+
+        Snake snake = new Snake(AnimalType.WILD, Skin.SCALES, Gender.MALE, Breed.BALL_PYTHON);
+        System.out.println(snake.toString());
     }
 }
