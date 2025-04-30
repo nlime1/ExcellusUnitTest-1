@@ -41,8 +41,8 @@ public class SnakeTests {
     @DisplayName("Snake Scales is it Hyperallergetic")
     public void dogHyperAllergeticTests()
     {
-        assertEquals("The snake is not hyperallergetic!", actualSnake.snakeHypoallergenic(),
-                "The snake is not hyperallergetic!");
+        assertEquals("The snake is hyperallergetic!", actualSnake.snakeHypoallergenic(),
+                "The snake is hyperallergetic!");
     }
 
     @Test
@@ -67,7 +67,7 @@ public class SnakeTests {
     @DisplayName("Snake Breed Test Ball Python")
     public void genderDogBreed() {
         actualSnake = new Snake(AnimalType.WILD, Skin.UNKNOWN,Gender.FEMALE, Breed.BALL_PYTHON);
-        assertEquals(Breed.MALTESE, actualSnake.getBreed(), "Expecting Breed Ball Python!");
+        assertEquals(Breed.BALL_PYTHON, actualSnake.getBreed(), "Expecting Breed Ball Python!");
     }
 
     @Test

@@ -49,7 +49,7 @@ public class PetStore
                 new BigDecimal("50.00"), 1));
         this.addPetInventoryItem(new Snake(AnimalType.DOMESTIC, Skin.UNKNOWN, Gender.FEMALE, Breed.BURMESE_PYTHON,
                 new BigDecimal("100.00"),2));
-        this.addPetInventoryItem(new Snake(AnimalType.DOMESTIC, Skin.UNKNOWN, Gender.FEMALE, Breed.BALL_PYTHON,
+        this.addPetInventoryItem(new Snake(AnimalType.DOMESTIC, Skin.UNKNOWN, Gender.FEMALE, Breed.MILK,
                 new BigDecimal("100.00"),3));
 
 
